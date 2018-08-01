@@ -18,7 +18,7 @@ public class LoginNewTourStepDef {
 	public void user_is_on_login_page_of_newtours() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	   
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\pdc4-training.pdc4\\DevOps\\cucumber-skeleton-project-1.2.0.1\\cucumber-java-skeleton-1.2.0.1\\Resources\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\pdc4-training.pdc4\\git\\devops2\\Resources\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://newtours.demoaut.com/");
 	}
