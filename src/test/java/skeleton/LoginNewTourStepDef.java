@@ -53,7 +53,7 @@ public class LoginNewTourStepDef {
 	@Then("^user can not able to Login$")
 	public void user_can_not_able_to_Login() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-		Assert.assertEquals("Find a Flight: Mercury Tours:", driver.getTitle());
+		//Assert.assertEquals("Find a Flight: Mercury Tours:", driver.getTitle());
 	}
 
 }
